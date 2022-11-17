@@ -1,0 +1,111 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    padding-bottom: 7vh;
+    color: #fff;
+}
+.container-header{
+    position: fixed;
+    width: 100%;
+    z-index: 30;
+}
+.buttons-header{
+    text-align: right;
+    padding: 5px;
+}  
+.buttons-header div{
+    display: inline-block;
+    background-color: gray;
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+/* main */
+main{
+    overflow: scroll;
+    color: #fff;
+}
+#smoll-button{
+    background-color: gray;
+    padding: 3px;
+    border-radius: 5px;
+}
+.container-main{
+    width: 100vw;
+    height: 83vh;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    min-width:15vw;  
+    min-height: 30vh;
+    background-image: url(https://picsum.photos/200/300);
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    margin: 5px 1px;
+}
+.card >div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color:rgba(0,0,0,0.5);
+    padding: 3px;
+}
+/* footer */
+.container-footer{
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+  
+}
+.mute {
+    display: inline-block;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.mute div a{
+    font-size: 25px;
+}
+.chevron-up{
+    vertical-align: middle;
+    align-items: center;
+    font-size: 13px;
+}
+.bg-end-meeting{
+    height: 100%;
+    background-color:gray;
+    padding: 25px;
+}
+#right-color{
+    color: red;
+}
+
+.left-footer ,.right-footer{
+   width: 15%;
+}
+#icon-green{
+    color: rgb(10, 247, 10);
+}
+
